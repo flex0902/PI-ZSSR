@@ -1,0 +1,4 @@
+run,sigma_eff,truth_amp_ratio,old_epoch,old_rmse_truth,old_amp,disc_epoch,disc_rmse_truth,disc_amp,hold_epoch,hold_rmse_truth,hold_amp,oracle_epoch,oracle_rmse_truth,final_rmse_truth,final_amp,tik_oracle_rmse,tik_disc_rmse,tik_disc_amp
+white1_s0,1.000,2.275,3415,2.946,2.225,100,3.480,2.116,450,2.888,2.212,275,2.879,2.951,2.222,1.683,1.754,2.103
+white1_s1,0.996,2.275,2858,2.914,2.205,75,3.461,2.206,2625,2.876,2.256,400,2.870,2.916,2.208,1.674,1.736,2.098
+white1_s2,0.998,2.275,3811,2.913,2.214,75,3.444,2.164,4500,2.897,2.347,350,2.833,2.912,2.213,1.665,1.733,2.104

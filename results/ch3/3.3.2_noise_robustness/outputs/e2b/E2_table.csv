@@ -1,0 +1,5 @@
+type,sigma,n,"PI-ZSSR, discrepancy stop RMSE","PI-ZSSR, loss-plateau stop RMSE","PI-ZSSR, oracle stop (truth) RMSE","Tikhonov FFT, alpha by discrepancy RMSE","Tikhonov FFT, best alpha (oracle) RMSE",disc epoch,old epoch,oracle epoch,disc amp,old amp,tik_disc amp,truth amp,disc NAF,disc NAF(noise-only),disc NAF/amp,old NAF,old NAF(noise-only),old NAF/amp,tik_disc NAF,tik_disc NAF(noise-only),tik_disc NAF/amp
+corr,2.0,3,2.93 ± 0.12,–,2.92 ± 0.11,3.09 ± 0.02,3.09 ± 0.02,14 ± 2,–,15 ± 3,1.90,–,1.83,2.28,1.46,1.46,0.77,–,–,–,1.54,1.54,0.84
+corr,3.0,3,3.99 ± 0.02,–,3.84 ± 0.13,4.00 ± 0.03,3.88 ± 0.03,11 ± 2,–,13 ± 1,1.74,–,1.61,2.28,1.33,1.33,0.76,–,–,–,1.33,1.33,0.83
+white,2.0,3,2.28 ± 0.14,–,1.94 ± 0.17,2.53 ± 0.02,2.48 ± 0.01,38 ± 6,–,22 ± 10,2.08,–,2.01,2.28,1.14,1.14,0.55,–,–,–,1.27,1.27,0.63
+white,3.0,3,2.49 ± 0.24,–,2.37 ± 0.03,3.08 ± 0.02,3.08 ± 0.02,20 ± 3,–,16 ± 3,2.00,–,1.82,2.28,0.83,0.83,0.41,–,–,–,1.03,1.03,0.56

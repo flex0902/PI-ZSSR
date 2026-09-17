@@ -1,0 +1,16 @@
+{
+    "input": "ch4/5000_pred_grid_0.1_filled_feather20.xyz",
+    "output": "ch4/lsc_dc_5156to1620.xyz",
+    "A": 74.49017983823124,
+    "R_B": 6371000.0,
+    "B": 2397,
+    "obs_h": 5156.0,
+    "pred_h": 1620.0,
+    "max_dist_deg": 0.1,
+    "noise_std": 3.0,
+    "b_min": 4,
+    "b_max": 10000,
+    "n_max": 3000,
+    "valid_points": 84099,
+    "mean_pred_std": 1.8744941635989423
+}

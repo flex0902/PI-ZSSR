@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "PI-ZSSR: Physics-Informed Zero-Shot Super-Resolution for Airborne Gravity Downward Continuation"
+type: software
+authors:
+  - family-names: Shih
+    given-names: Hsuan-Chang
+    email: flex0902@mail.ntpu.edu.tw
+    affiliation: "Department of Real Estate and Built Environment, National Taipei University, New Taipei City, Taiwan"
+license: MIT
+repository-code: "https://github.com/flex0902/PI-ZSSR"
+preferred-citation:
+  type: article
+  title: "Deep Image Prior for Geophysics: A Physics-Informed Zero-Shot Super-Resolution Framework for Airborne Gravity Downward Continuation"
+  authors:
+    - family-names: Shih
+      given-names: Hsuan-Chang
+  journal: "Journal of Geodesy"
+  year: 2026
+  notes: "under review"

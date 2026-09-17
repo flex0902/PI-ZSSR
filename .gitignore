@@ -1,0 +1,29 @@
+# run outputs written to the repo root by the commands in README.md
+# (anchored: results/ch3/**/outputs/e2 etc. are tracked)
+/e1/
+/e2/
+/e2b/
+/e3/
+/e3_r01/
+/e4/
+/ch4/
+*.npz
+
+# airborne observations and LSC grids -- never commit
+*.xyg
+*_pred_grid_*.xyz
+*_pred_all_*.csv
+*_filled*.xyz
+real0_*.xyz
+pizssr_*.xyz
+lsc_dc_*.xyz
+merged_gravity_*.xyz
+
+# python / editors
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
