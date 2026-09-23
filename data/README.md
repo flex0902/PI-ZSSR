@@ -11,7 +11,7 @@ All files are plain ASCII `lon lat value` on the 21–26°N, 119–124°E window
 | `TW_EGM_grid_g_d2000_h{0,1620,5156}.xyz` | EGM2008, n ≤ 2000 (RCR reference) | 0 / 1620 / 5156 m | §4.2 remove, §4.4 restore |
 | `TW_EGM_grid_g_res_h{1620,5156}.xyz` | EGM2008, n = 2001–2160 (residual) | 1620 / 5156 m | §4.2 residual comparison, §4.3–4.4 far-field fill |
 | `TW_XGM_grid_g_d2160_h{1620,5156}.xyz` | XGM2019e, n ≤ 2160 | 1620 / 5156 m | §4.1 data check |
-| `TW_XGM_grid_g_d5540_h0.xyz` | XGM2019e, n ≤ 5540 | 0 m | §4.5 spectral comparison |
+| `TW_XGM_grid_g_d5540_h0.xyz` | XGM2019e, n ≤ 5540 | 0 m | §4.4.1 residual-spectrum check |
 
 Heights are ellipsoidal/orthometric as used in the paper (0 m ≈ quasi-geoid). `res` grids are the full-degree grid minus the reference grid at the same height.
 

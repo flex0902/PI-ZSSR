@@ -18,7 +18,7 @@ PI-ZSSR trains an untrained U-Net (Deep Image Prior) on a single observation gri
 ├── results/
 │   ├── ch3/             Section 3 (synthetic): tables, metrics, learning curves, summary maps
 │   └── ch4/             Section 4 (Taiwan airborne): metrics, curves, figures
-├── figures/             manuscript Figures 1–21
+├── figures/             manuscript Figures 1–20
 ├── requirements.txt
 └── CITATION.cff
 ```
@@ -89,7 +89,7 @@ The masks reproduce the pixel counts of the paper (R1 = 31941, R2 = 10446, R3 = 
 
 ## Section 4 (Taiwan airborne)
 
-Pipeline and command lines: `results/ch4/4.2_lsc` (RCR, T–R fit, LOO, gridding), `4.3_5156to1620` (labelled 5156 → 1620 m test and σ sensitivity), `4.4_0m_dual` (unobserved 0 m, configurations A and C), `4.5_xgm_egm` (spectral comparison with XGM2019e / EGM2008). The GGM grids and T–R parameters they use are in `data/`; the airborne observations and the LSC grids are not distributed here.
+Pipeline and command lines: `results/ch4/4.2_lsc` (RCR, T–R fit, LOO, gridding), `4.3_5156to1620` (labelled 5156 → 1620 m test and σ sensitivity), `4.4_0m_dual` (unobserved 0 m, configurations A and C), `4.5_xgm_egm` (residual spectra of the 0 m product against XGM2019e / EGM2008; §4.4.1). The GGM grids and T–R parameters they use are in `data/`; the airborne observations and the LSC grids are not distributed here.
 
 ## Data availability
 

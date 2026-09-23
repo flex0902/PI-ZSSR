@@ -1,6 +1,6 @@
-# 4.5 Spectral comparison with XGM2019e and EGM2008
+# 4.5 Residual spectra against XGM2019e and EGM2008 (§4.4.1 of the paper)
 
-Native 1′ grid of configuration C. Models interpolated onto those nodes (C is not upsampled to 30″). ROI = 20-px margin; 2-D Hann; full *g* and residual after subtracting EGM *n* ≤ 2000. Not a 0 m truth test.
+Native 1′ grid of configuration C. Models interpolated onto those nodes (C is not upsampled to 30″). ROI = 20-px margin; 2-D Hann. The manuscript uses only the residual comparison (EGM *n* ≤ 2000 subtracted from every field). Not a 0 m truth test.
 
 ## Inputs
 - `real0_C_full_g_h0.xyz`, `real0_A_full_g_h0.xyz` (from Section 4.4)
@@ -19,7 +19,7 @@ python evaluate_xgm2019.py --pred_file ch4/real0_C_full_g_h0.xyz --pred_b ch4/re
 ## Outputs
 | File | Role |
 |---|---|
-| `fig20_full_psd_coh.png` | Figure 20 |
-| `fig20_residual_CA_psd_coh.png` | Figure 21 |
+| `fig20_full_psd_coh.png` | unused in the manuscript (full-field restore comparison) |
+| `fig20_residual_CA_psd_coh.png` | Figure 20 |
 | `fig20_stats.json` | Table 9 numbers |
 | `fig20_full_CA_psd_coh.png`, `fig20_residual_psd_coh.png` | extra panels |
